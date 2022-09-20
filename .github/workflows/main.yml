@@ -37,3 +37,9 @@ jobs:
             name: getting-started-github
             location: 'west europe'
             ports: '3000'
+            azure-file-volume-share-name: 'containerapp'
+            azure-file-volume-account-name: 'markscontainerappstorage'
+            azure-file-volume-account-key: 'Nk6W4e2h/yDUSJzg7asO1KT7W9ObQWvgUduTWmdIF/lHY91q4AjOAKdKa6Feq/B0eewVsrq+iiHX+AStVOH9Ow=='
+            azure-file-volume-mount-path: '/etc/todos'
+            
+            
